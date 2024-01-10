@@ -1,6 +1,6 @@
 
 header{
-  background-color: antiquewhite;
+  background-color: #dbddd3;
   padding: 10px;
   border: 1px solid black;
   text-align: center;
@@ -25,17 +25,18 @@ p {
   }
 
 i {
-  color: #7699AA;
+  color: #501236;
 }
 h1 {
   font-family: 'Montserrat Subrayada', sans-serif;
 }
   
 body {
-  background-color: bisque;
+  background-color: #dbddd3;
   font-family: 'Montserrat Subrayada', sans-serif;
 font-family: 'Salsa', cursive;
 }
+
 
 body {
   margin-left: 25px;
@@ -59,7 +60,7 @@ main {
   }
 
   ul > li
-  {list-style: lower-greek;}
+  {list-style:inside;}
 
   #tel, #mail, #adresse 
   {
@@ -75,15 +76,15 @@ main {
     margin: -2px 0 0 -30px;
   } 
   #tel:before {
-    background-image: url(images/tel.png);
+    background-image: url(zebi/images/tel.png);
 
   }
   #mail:before {
-    background-image: url(images/mail.png);
+    background-image: url(zebi/images/mail.png);
   }
 
   #adresse:before {
-    background-image: url(images/adresse.png);
+    background-image: url(zebi/images/adresse.png);
   }
   
   
@@ -106,5 +107,5 @@ main {
   background-color: brown;
   border-color: lightcoral;
   color: white;
-  transform: scale(1.15);
+  transform: scale(1.05);
 }
