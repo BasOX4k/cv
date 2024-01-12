@@ -1,0 +1,15 @@
+header {
+    font-family: 'Sen', sans-serif;
+    background-color: #35578e;
+    width: fit-content;
+}
+.flex {
+    display: flex;
+}
+.center{
+    margin: 0px auto;
+}
+body{
+    font-family: 'Sen', sans-serif;
+    background-color: #aacee7;
+}
