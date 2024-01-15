@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Nous contacter</h1>
+        <form action="" method="post">
+
+            <!-- Champ de texte requis -->
+            <fieldset> <legend>Information</legend>
+            <div class="field">
+                <label for="firstname">Prénom *</label>
+                <input required placeholder="Kévin" type="text" name="firstname" id="firstname">
+            </div>
+            
+            <!-- Champ de texte -->
+            <div class="field">
+                <label for="lastname">Nom *</label>
+                <input placeholder="Wolff" type="text" name="lastname" id="lastname">
+            </div>
+            
+            <!-- Champ de bouton radio (choix unique) -->
+            <div class="field">
+                <label for="male">Masculin</label>
+                <input required type="radio" name="sexe" id="male" value="male">
+
+                <label for="female">Féminin</label>
+                <input type="radio" name="sexe" id="female" value="female">
+
+                <label for="unknow">Autre</label>
+                <input checked type="radio" name="sexe" id="unknow" value="unknow">
+            </div>
+            <div class="field">
+                <label for="birthdate">Date de Naissance</label>
+                <input type="date" name="birthdate" id="birthdate">
+
+            </div>
+        </fieldset>
+           
+        <fieldset><legend>Compte</legend>
+            <div class="field">
+                <label for="email">Email</label>
+                <input required type="email" name="email" id="email">
+            </div>
+            <div>    
+                <label for="password">Mot de passe</label>
+                <input required type="password" name="password" id="password">
+            </div>
+        </fieldset>
+        
+        <fieldset> <legend>Technique</legend>
+        <div class="field">
+            <label for="invocation">Invocation</label>
+            <input type="checkbox" name="invocation" id="invocation">
+
+            <label for="càc">CàC</label>
+            <input type="checkbox" name="càc" id="càc">
+
+            <label for="malédiction">Malédiction</label>
+            <input type="checkbox" name="malédiction" id="malédiction">
+        </div>
+        <!---Dropdown-->
+        <div class="field">
+            <label for="test">Niveau de Pratique</label>
+            <select required name="practice_level" id="practice_level">
+            <option selected value="beginner">Débutant</option>
+            <option value="confirmed">Avancé</option>
+            <option value="pro">Pro</option>
+            </select>      
+        </div>
+    </fieldset>
+            <input type="submit" value="Envoyer le formulaire">
+
+            
+        </form>
+</body>
+</html>

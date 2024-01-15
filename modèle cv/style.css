@@ -1,15 +1,60 @@
 header {
-    font-family: 'Sen', sans-serif;
-    background-color: #35578e;
-    width: fit-content;
+  font-family: "Sen", sans-serif;
+  background-color: #35578e;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #000000;
 }
 .flex {
-    display: flex;
+  display: flex;
 }
-.center{
-    margin: 0px auto;
+.center {
+  margin: 0px auto;
 }
-body{
-    font-family: 'Sen', sans-serif;
-    background-color: #aacee7;
+#conteneur-header {
+  width: fit-content;
+}
+.titre-header {
+  margin: 0px 0px 0px 15px;
+  padding: 0px 0px 0px 15px;
+  border-left: 2px solid black;
+}
+body {
+  font-family: "Sen", sans-serif;
+  background-color: #aacee7;
+  margin: 25px;
+}
+#photo_de_profil {
+  border-radius: 100%;
+}
+main{
+  display: flex;
+}
+.ecf {
+  padding: 10px;
+  width: 20%;
+  border: 1px solid rgb(1, 1, 1);
+}
+
+#col-laterale 
+{ 
+  padding: 15px;
+}
+
+.container {
+  width: fit-content;
+  /* ne pas utiliser de height en PX */
+  /* juste le temps du développement */
+  height: 500px;
+  border: 2px solid #35578e;
+  padding: 30px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.field {
+  display: flex;
+  gap: 30px;
 }
